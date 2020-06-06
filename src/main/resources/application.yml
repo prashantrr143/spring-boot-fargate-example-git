@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+
+spring:
+  application:
+    name: spring-boot-docker-example
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
